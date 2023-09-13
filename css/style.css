@@ -7,6 +7,10 @@ body {
   display: none;
 }
 
+.flower-iconsp {
+  display: none;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -133,6 +137,7 @@ header {
 
 .flower-icon {
   width: 50px;
+  display: block;
   position: relative;
   left: 280px;
   bottom: 60px;
@@ -287,7 +292,6 @@ footer {
 }
 
 .news-box {
-  width: 80%;
   display: block;
   margin: 0 auto;
 }
@@ -300,16 +304,28 @@ footer {
   margin: 0 auto;
 }
 
+.news-boxinner h1 {
+  margin-top: -50px;
+}
+
 .news-timelline li {
   padding-left: 20px;
   font-size: 15px;
 }
 
 .flower-icon {
-  width: 30px;
-  position: relative;
-  left: 140px;
-  top: 20px;
+  display: none;
+}
+
+.flower-iconsp {
+  display: block;
+  width: 50px;
+    position: relative;
+    left: 110px;
+    bottom: 60px;
+    background-color: #fff;
+    border: 1.8px solid rgb(140, 140, 140);
+    border-radius: 20px 20px 5px 5px;
 }
 
 #shop-flower {
