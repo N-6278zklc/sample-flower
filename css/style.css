@@ -588,12 +588,20 @@ footer {
   justify-content: center;
   flex-direction: column;
   margin-bottom: 40px;
-  height: 500px;
+  height: 600px;
 }
 
 .service-title {
   padding-top: 10px;
-  line-height: 1;
+  line-height: 2;
+}
+
+.service-title2 {
+  margin-top: 20px;
+}
+
+.service-title3 {
+  margin-top: 20px;
 }
 
 .message-card img {
@@ -604,11 +612,12 @@ footer {
 .letter-right {
   width: 280px;
   margin: 0 auto;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 .delivery-erea {
   height: 400px;
+  line-height: 1.8;
 }
 
 
@@ -616,6 +625,7 @@ footer {
 .delivery-right {
   width: 280px;
   margin: 0 auto;
+  
 }
 
 .service-height img {
