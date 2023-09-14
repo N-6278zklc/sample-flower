@@ -361,6 +361,26 @@ footer {
 
 @media(max-width: 719px) {
 
+  #header-topnav {
+    width: 100%;
+  }
+
+  .header-topnav2 {
+    width: 300px;
+  }
+
+  .login {
+    width: 100px;
+  }
+
+  .guide {
+    width: 100px;
+  }
+
+  .tel {
+    width: 100px;
+  }
+
   .sp {
     display: block;
   }
