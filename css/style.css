@@ -573,7 +573,7 @@ footer {
 
 #service {
   width: 100%;
-  height: 850px;
+  height: 900px;
 }
 
 .service-container {
@@ -588,7 +588,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .service-title {
@@ -601,6 +601,23 @@ footer {
   border-radius: 50%;
 }
 
+.letter-right {
+  width: 280px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.delivery-ere {
+  height: 500px;
+}
+
+
+
+.delivery-right {
+  width: 280px;
+  margin: 0 auto;
+}
+
 .service-height img {
   width: 250px;
   border-radius: 50%;
@@ -608,16 +625,17 @@ footer {
 }
 
 .service-height {
-  height: 600px;
+  height: 400px;
 }
 
 .service-border {
-  width: 380px;
-  height: 400px;
+  width: 340px;
+  
   display: flex;
   justify-content: center;
   flex-direction: column;
   border: 1px solid rgb(170, 170, 170);
+  /*margin: auto;*/
 }
 
 #tel-no {
