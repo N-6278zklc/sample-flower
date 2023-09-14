@@ -368,6 +368,49 @@ footer {
     width: 100%;
   }
 
+  .sp-headercon {
+    width: 100%;
+
+  }
+
+  .sp-headerwidth {
+    width: 80%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  .sp-headercon ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 4;
+    padding: 8rem 2rem 2rem;
+    width: max(32vw, 20rem);
+    height: 100vh;
+    background-color: rgb(89, 149, 129);
+    box-shadow: 0 0 2rem rgb(84, 84, 84);
+    translate: 100vw;
+  }
+
+  .sp-headercon ul li {
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .open {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 50%;
+  }
+
+  .close {
+    margin-bottom: 30px;
+  }
+
   #top {
     width: 100%;
     height: 600px;
@@ -455,6 +498,10 @@ footer {
 @media (max-width: 660px) {
 
   .tel {
+    display: none;
+  }
+
+  .header-container {
     display: none;
   }
 
