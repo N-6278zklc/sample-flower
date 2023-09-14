@@ -1,544 +1,223 @@
-body {
-  font-family: 'Kiwi Maru', serif;
-  font-family: 'Zen Old Mincho', serif;
-}
-
-.sp {
-  display: none;
-}
-
-.flower-iconsp {
-  display: none;
-}
-
-img {
-  width: 100%;
-  height: 100%;
-}
-
-#header-topnav {
-  width: 100%;
-  height: 200px;
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  
-
-}
-
-.header-topnav2 {
-  height: 90px;
-  width: 1000px;
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-}
-
-
-.header-topnavcenter {
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
-}
-
-.header-topnav2 i {
-  font-size: 20px;
-}
-
-.header-topnavright {
-  height: 89px;
-  display: flex;
-}
-
-.category {
-  width: 150px;
-}
-
-.login {
-  text-align: center;
-  width: 150px;
-}
-
-.guide {
-  text-align: center;
-  width: 150px;
-}
-
-.fa-question {
-  background-color: #fff;
-  border: 1px solid black;
-  border-radius: 50%;
-  padding: 20px;
-}
-
-.fa-user {
-  background-color: #fff;
-  border: 1px solid black;
-  border-radius: 50%;
-  padding: 20px;
-}
-
-.login {
-  align-items: center;
-}
-
-.fa-phone {
-  background-color: #fff;
-  border: 1px solid black;
-  border-radius: 50%;
-  padding: 20px; 
-}
-
-.tel {
-  text-align: center;
-  font-size: 15px;
-}
-
-header {
-  width: 100%;
-  height: 80px;
-  background-color: rgb(130, 200, 200);
-  
-}
-
-.header-container {
-  line-height: 80px;
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  color: rgb(72, 72, 72);
-}
-
-.header-container {
-  font-size: 20px;
-}
-
-.header-container ul{
-  display: flex;
-  padding-left: 20px;
-  margin-left: 30px;
-  
-}
-
-.header-container ul li {
-  padding-right: 30px;
-  margin-right: 30px;
-  font-size: 20px;
-}
-
-.top-btn button {
-  text-align: center;
-  border: 1.5px solid rgb(195, 184, 184);
-  border-radius: 50px;
-  margin-top: 10px;
-  background-color: rgb(203, 197, 197);
-}
-
-.btn-shop {
-  font-size: 20px;
-  padding: 20px;
-  font-weight: bold;
-}
-
-.btn-online {
-  font-size: 20px;
-  font-weight: bold;
-
-  padding: 20px 8px;
-}
-
-.top-btn {
-  text-align: center;
-  
-}
-
-
-
-#top {
-  
-  width: 100%;
-  background-color: #fff;
-  height: 800px;
-  padding-top: 50px;
-}
-
-.top-textbox {
-  width: 80%;
-  height: 500px;
-  background-image: url(../images/26582313_m.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-   background-position: center;
-  margin: 0 auto;
-  font-family: 'Kiwi Maru', serif;
-  font-family: 'Zen Old Mincho', serif;
-  color: rgb(57, 56, 56);
-}
-
-.top-textinner h1 {
-  position: relative;
-  left: -50px;
-  display: inline-block;
-  padding: 15px 20px 15px;
-  text-align: left;
-  font-size: 50px;
-  font-weight: bold;
-  color: black;
-  background-color: rgb(255, 255, 255, 0.5);
-}
-
-.top-textinner {
-  padding-top: 200px;
-}
-
-#concept {
-  width: 100%;
-  height: 350px;
-  background-color: rgb(229, 231, 214);
-}
-
-.concept-container {
-  width: 80%;
-  margin: 0 auto;
- 
-}
-
-.concept-text {
-  padding-top: 100px;
-  line-height: 2;
-}
-
-.concept-text h1 {
-  font-size: 28px;
-}
-
-.flower {
-  font-size: 38px;
-}
-
-.magic {
-  font-size: 50px;
-  
-}
-
-
-#news {
-  width: 100%;
-  height: 700px;
-}
-
-.container {
-  width: 80%;
-  margin: 200px auto 0 auto;
-}
-
-.news-box {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  
-}
-
-.flower-icon {
-  width: 50px;
-  display: block;
-  position: relative;
-  left: 280px;
-  bottom: 60px;
-  background-color: #fff;
-  border: 1.8px solid rgb(140, 140, 140);
-  border-radius: 20px 20px 5px 5px;
-}
-
-.news-boxinner {
-  padding: 80px 60px 120px 60px;
-  border: 1px solid rgb(140, 140, 140);
-  border-radius: 50%;
-  font-family: 'Kiwi Maru', serif;
-  font-family: 'Zen Old Mincho', serif;
-}
-
-.news-boxinner h1 {
-  text-align: center;
-  line-height: 4;
-  border-bottom: 1px solid rgb(140, 140, 140);
-  margin-bottom: 30px;
-}
-
-.news-timelline {
-  line-height: 3;
-  
-}
-
-#shop-flower {
-  width: 100%;
-  height: 3000px;
-}
-
-.flower-container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.merch-top {
-  line-height: 2;
-  text-align: center;
-  height: 300px;
-  margin: 200px auto 0 auto;
-
-}
-
-.flower-pot {
-  letter-spacing: 5px;
-}
-
-.dried-flowers {
-  letter-spacing: 5px;
-}
-
-.flower-container h1 {
-  font-size: 20px;
-}
-
-.flower-box {
-  gap: 10px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
- 
-}
-
-.flower-item {
-  width: 300px;
-  height: 500px;
-  border-radius: 50px 50px 0 0;
-  border: thick double black;
-  margin: 0 auto;
-}
-
-.flower-item p {
-  width: 230px;
-  font-size: 20px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  margin: 40px auto 0 auto;
-  text-align: center;
-  padding: 10px 0 15px 0;
-}
-
-.flower-item img {
-  width: 250px;
-  height: 250px;
-  aspect-ratio: 5/3;
-  border-radius: 10%;
-  margin: 10px 0 0 18px;
-}
-
-/*.dry1 {
-  width: 270px;
-  height: 202px;
-}
-
-.dry2 {
-  width: 270px;
-  height: 202px;
-}
-
-.dry3 {
-  width: 100%;
-  height: 202px;
-}*/
-
-footer {
-  width: 100%;
-  height: 100px;
-  background-color: rgb(130, 200, 200);
-  text-align: center;
-  line-height: 100px;
-}
-
-@media(max-width: 719px) {
-
-  #header-topnav {
-    width: 100%;
-  }
-
-  .header-topnav2 {
-    width: 300px;
-  }
-
-  .login {
-    width: 100px;
-  }
-
-  .guide {
-    width: 100px;
-  }
-
-  .tel {
-    width: 100px;
-  }
-
-  .sp {
-    display: block;
-  }
-  header {
-    width: 100%;
-  }
-
-  .sp-headercon {
-    width: 100%;
-
-  }
-
-  .sp-headerwidth {
-    width: 80%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    font-size: 20px;
-  }
-
-  .sp-headercon ul {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 4;
-    padding: 8rem 2rem 2rem;
-    width: max(32vw, 20rem);
-    height: 100vh;
-    background-color: rgb(89, 149, 129);
-    box-shadow: 0 0 2rem rgb(84, 84, 84);
-    translate: 100vw;
-  }
-
-  .sp-headercon ul li {
-    height: 50px;
-    font-size: 18px;
-  }
-
-  .open {
-    border: 1px solid black;
-    padding: 20px;
-    border-radius: 50%;
-  }
-
-  .close {
-    margin-bottom: 30px;
-  }
-
-  #top {
-    width: 100%;
-    height: 600px;
-  }
-
-  .top-textinner {
-    padding-top: 150px;
-}
-
-.concept-text {
-  padding-top: 100px;
-  line-height: 1.5;
-}
-
-.concept-text p {
-  padding-top: 20px;
-  padding-left: 30px;
-
-}
-
-#news {
-  width: 100%;
-  height: 700px;
-}
-
-.container {
-  width: 98%;
-  
-}
-
-.news-box {
-  display: block;
-  margin: 0 auto;
-}
-
-.news-boxinner {
-  
-  width: 300px;
-  border-radius: 0%;
-  padding: 10px 20px 20px 20px;
-  margin: 0 auto;
-}
-
-.news-boxinner h1 {
-  margin-top: -50px;
-}
-
-.news-timelline li {
-  padding-left: 20px;
-  font-size: 15px;
-}
-
-.flower-icon {
-  display: none;
-}
-
-.flower-iconsp {
-  display: block;
-  width: 50px;
-    position: relative;
-    left: 110px;
-    bottom: 60px;
-    background-color: #fff;
-    border: 1.8px solid rgb(140, 140, 140);
-    border-radius: 20px 20px 5px 5px;
-}
-
-#shop-flower {
-  width: 100%;
-  height: 6000px;
-}
-
-.flower-container {
-  width: 98%;
-}
-
-.flower-box {
-  grid-template-columns: 1fr;
-}
-
-
-
-}
-
-@media (max-width: 660px) {
-
-  .tel {
-    display: none;
-  }
-
-  .header-container {
-    display: none;
-  }
-
-  #header-topnav {
-    height: 200px;
-  }
-
-  .header-topnav2 {
-    width: 89%;
-    margin: 0 auto;
-  }
-
-  .header-topnav2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-
-  
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>偽サイトです</title>
+
+  <!--css-->
+   <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+   <link rel="stylesheet" href="css/style.css"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Zen+Old+Mincho:wght@500&display=swap" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/29d209d44f.js" crossorigin="anonymous"></script>
+<script src="js/script.js" defer></script>
+</head>
+<body>
+  <section id="header-topnav">
+    <div class="header-topnav2">
+
+      
+      <div class="header-topnavcenter">
+        <div class="header-topnavleft">
+          <div class="category">
+            <p><a href="">商品カテゴリ</a></p>
+          </div>
+        </div>
+        <div class="header-topnavright">
+          <div class="login">
+            <i class="fa-solid fa-user"></i>
+            <p><a href="">ログイン</a></p>
+          </div>
+          <div class="guide">
+            <i class="fa-solid fa-question"></i>
+            <p><a href="">ご利用ガイド</a></p>
+          </div>
+          <div class="tel">
+            <i class="fa-solid fa-phone"></i>
+            <p>お問い合わせ先<br>〇〇〇-〇〇〇-〇〇〇<br>受付時間:09:00～18:00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <header>
+      <div class="header-container">
+        <h1><a href="#top">Home</a></h1>
+        <ul>
+          <li><a href="">concept</a></li>
+          <li><a href="">news</a></li>
+          <li><a href="">flower</a></li>
+        </ul>
+      </div>
+      <div class="sp sp-headercon">
+        <div class="sp-headerwidth">
+          <h1><a href="">Home</a></h1>
+          <i class="open fa-solid fa-bars"></i>
+        </div>
+        <ul class="menu-panel">
+          <i class="close fa-solid fa-xmark"></i>
+          <li><a href="">concept</a></li>
+          <li><a href="">news</a></li>
+          <li><a href="">flower</a></li>
+          <li><a href="">お問い合わせ先</a></li>
+        </ul>
+      </div>
+    </header>
+  <section id="top">
+    <div class="top-textbox">
+      <div class="top-text">
+        <div class="top-textinner">
+          <h1>Sample flower shop</h1>
+          
+        </div>
+        
+      </div>
+      <div class="top-btn">
+        <button class="btn-online"><a href=""><i class="fa-solid fa-cart-shopping"></i>オンライン<br class="sp">shop</a></button>
+        <button class="btn-shop"><a href=""><i class="fa-solid fa-shop"></i>shop<br class="sp">list</a></button>
+      </div>
+    </header>
+    </div>
+    
+  </section>
+  <section id="concept">
+    <div class="concept-container">
+      <div class="concept-text">
+        <h1>お部屋に<br class="sp"><span class="flower">花</span>の<span class="magic">魔法</span>を。</h1>
+        <p>あなたの心の癒しのパートナーを<br class="sp">迎え入れてみませんか？</p>
+      </div>
+    </div>
+  </section>
+  <section id="news">
+    <div class="container">
+      <div class="news-box">
+        <img class="flower-icon"src="images/flower-icon.png" alt="">
+        <div class="news-boxinner">
+          
+        <img class="flower-iconsp" src="images/flower-icon.png" alt="">
+          <h1>NEWS</h1>
+          <ul class="news-timelline">
+            <li><a href="#">2023.7月7日～<br class="sp">セール開始</a></li>
+            <li><a href="#">2023.6月23日<br class="sp">〇〇店スタッフブログを投稿しました。</a></li>
+            <li><a href="#">2023.6月1日～6月20日<br class="sp">花束作り教室を開催しました。</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+      
+  </section>
+  <section id="shop-flower">
+    <div class="flower-container">
+      <div class="merch-top">
+        <h1>フラワーポット<br><span class="flower-pot">- flower pot -</span></h1>
+        <h2>母の日や特別な日の贈り物に</h2>
+      </div>
+      <div class="flower-box">
+        <div class="flower-item">
+          
+          <img src="images/26021128_s.jpg" alt="">
+          <p>sample</p>
+        </div>
+        <div class="flower-item">
+          
+          <img src="images/4446137_s.jpg" alt="">
+          <p>sample</p>
+        </div>
+        <div class="flower-item">
+         
+          <img src="images/23756579_s.jpg" alt="">
+          <p>sample</p>
+        </div>
+        <div class="flower-item">
+          
+          <img src="images/24292465_s.jpg" alt="">
+          <p>sample</p>
+        </div>
+        <div class="flower-item">
+          
+          <img src="images/24348919_s.jpg" alt="">
+          <p>sample</p>
+        </div>
+        <div class="flower-item">
+          
+          <img src="images/2143356_s.jpg" alt="">
+          <p>sample</p>
+        </div>
+      </div>
+      <div class="merch-top">
+        <h1>ドライフラワー<br><span class="dried-flowers">- dried flowers -</span></h1>
+        <h2>プレゼントやお部屋の壁飾りに</h2>
+      </div>
+      <div class="flower-box">
+        <div class="flower-item">
+        
+          <img class="dry1" src="images/26954081_s.jpg" alt="">
+          <p>sample</p>
+        </div>
+        <div class="flower-item">
+          
+          <img class="dry2" src="images/26997928_s.jpg" alt="">
+          <p>sample</p>
+        </div>
+        
+        <div class="flower-item">
+          
+          <img class="dry5" src="images/27588666_m.jpg" alt="">
+          <p>sample</p>
+        </div class="flower-item">
+        <div class="flower-item">
+          
+          <img src="images/23526804_s.jpg" alt="">
+          <p>sample</p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <section id="service">
+    <div class="service-container">
+      <div class="service-height letter-erea service-border">
+        
+        <div class="message-card">
+          <img class="letter" src="images/letter.jpg" alt="">
+        </div>
+        <div class="letter-right">
+          <p class="service-title">message card service</p>
+          <p>メッセージカードサービス<br class="sp">承っております。</p>
+          <p>数種類のメッセージカードを取り揃えております。<br>お好みのデザインのカードをお選びいただき、ご希望のメッセージをご入力ください。</p>
+        </div>
+      </div>
+      <div class="service-height delivery-erea  flex-reverse service-border">
+        <div class="delivery-container">
+          <img src="images/delivery.jpg" alt="">
+        </div>
+        <div class="delivery-right">
+          <p class="service-title">delivery service</p>
+          <p>配送方法をお選びいただけます。</p>
+          <p>時間指定、クール便又は通常便など詳細にお選び頂けますので、お忙しい方にもおススメ！</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="tel-no" class="sp">
+    <div class="telno-width">
+      <div class="tel-top">
+        <p>お電話でのお問い合わせ</p>
+      </div>
+      <div class="tel-bottom">
+        <div class="tel-bottom2">
+          <i class="fa-solid fa-phone"></i>
+          <p>〇〇〇-〇〇〇-〇〇〇<br>受付時間 9:00～18:00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Sample - flower - 2023.9</p>
+  </footer>
+</body>
+</html>
