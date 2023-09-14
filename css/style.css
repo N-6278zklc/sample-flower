@@ -573,7 +573,7 @@ footer {
 
 #service {
   width: 100%;
-  height: 1000px;
+  height: 1100px;
 }
 
 .service-container {
@@ -592,12 +592,13 @@ footer {
 }
 
 .service-title {
+  height: 50px;
   padding-top: 10px;
-  line-height: 2;
 }
 
 .service-title2 {
   margin-top: 20px;
+  line-height: 1.5;
 }
 
 .service-title3 {
@@ -612,7 +613,6 @@ footer {
 .letter-right {
   width: 280px;
   margin: 0 auto;
-  line-height: 1.8;
 }
 
 .delivery-erea {
